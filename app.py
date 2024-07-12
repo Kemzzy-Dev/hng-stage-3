@@ -10,6 +10,7 @@ from typing import Any
 import logging
 from flask import abort
 from dotenv import load_dotenv
+import subprocess
 
 
 
@@ -25,7 +26,23 @@ celery.conf.update(app.config)
 celery.conf.broker_connection_retry_on_startup = True
 
 #Logs
-log = Log("/var/log/messaging_system.log")
+file_path = "/var/log/messaging_system.log"
+log = Log(file_path)
+# sudo touch /var/log/messaging_system.log
+
+# Check if the file exists
+if os.path.exists(file_path):
+    subprocess.run(["sudo", "chmod", "a+rw", file_path], check=True)
+else:
+    # File does not exist, create it
+    with open(file_path, 'a'):  # Open the file in append mode to create it if it doesn't exist
+        pass
+
+    # Set permissions
+    try:
+        subprocess.run(["sudo", "chmod", "a+rw", file_path], check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"Failed to set permissions: {e}")
 
 
 @celery.task
