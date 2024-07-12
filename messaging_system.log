@@ -1,0 +1,149 @@
+Talktome request received at 2024-07-12 11:55:20
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:10:37] "GET /?sendemail=kemzzy17@gmail.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:10:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:10:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:10:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:18:20] "GET /?sendemail=kemzzy17@gmail.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:18:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:18:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:18:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:25:01] "GET /?sendemail=kemzzy17@gmail.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:25:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:25:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:25:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:25:45] "GET /?sendemail=kemzzy17@gmail.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:25:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:25:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:25:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:38:33] "GET /?sendemail=kemzzy17@gmail.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:38:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:38:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 13:38:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug: * Detected change in '/home/alphacode_x/Documents/HNG/hng-stage-3/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug: * Detected change in '/home/alphacode_x/Documents/HNG/hng-stage-3/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug: * Detected change in '/home/alphacode_x/Documents/HNG/hng-stage-3/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug: * Detected change in '/home/alphacode_x/Documents/HNG/hng-stage-3/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug: * Detected change in '/home/alphacode_x/Documents/HNG/hng-stage-3/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug: * Detected change in '/home/alphacode_x/Documents/HNG/hng-stage-3/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug: * Detected change in '/home/alphacode_x/Documents/HNG/hng-stage-3/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug: * Detected change in '/home/alphacode_x/Documents/HNG/hng-stage-3/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug: * Detected change in '/home/alphacode_x/Documents/HNG/hng-stage-3/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:02:07] "GET /?sendemail=kemzzy17@gmail.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:02:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:02:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:02:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:02:30] "GET /?sendemail=kemzzy17@gmail.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:02:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:02:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:02:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:02:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:03:28] "GET /?sendemail=kemzzy17@gmail.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:03:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:03:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:03:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:04:37] "GET /?sendemail=kemzzy17@gmail.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:04:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:04:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:04:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/alphacode_x/Documents/HNG/hng-stage-3/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:16:48] "GET /?sendemail=kemzzy17@gmail.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:16:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:16:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:16:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/alphacode_x/Documents/HNG/hng-stage-3/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug: * Detected change in '/home/alphacode_x/Documents/HNG/hng-stage-3/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug: * Detected change in '/home/alphacode_x/Documents/HNG/hng-stage-3/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:21:04] "GET /?sendemail=kemzzy17@gmail.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:21:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:21:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:21:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:43:27] "GET /?sendemail=kemzzy17@gmail.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:43:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:43:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:43:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 681-684-597
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:53:17] "GET /?sendemail=kemzzy17@gmail.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:53:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:53:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2024 14:53:20] "GET / HTTP/1.1" 200 -
