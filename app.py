@@ -8,9 +8,13 @@ from datetime import datetime
 import os
 from typing import Any
 import logging
+from flask import abort
+from dotenv import load_dotenv
+
 
 
 app = Flask(__name__)
+load_dotenv()
 
 # Configure Celery
 # Configure RabbitMQ and Celery
@@ -22,27 +26,24 @@ celery.conf.broker_connection_retry_on_startup = True
 
 #Logs
 log = Log("/var/log/messaging_system.log")
-logger = logging.getLogger(__name__)
-logging.basicConfig(filename='./messaging_system.log', level=logging.INFO)
-
 
 
 @celery.task
 def send_email(recipient: str) -> Any:
-    logger.info(f"send_email task started for {recipient}")
-
-    sender = "ekemini.udongwo11@gmail.com"
+    sender_email = os.getenv("EMAIL")
+    sender_passkey = os.getenv("PASSKEY")
+    
+    # Create the mail
     msg = MIMEText("This is a test email sent from the messaging system.")
     msg['Subject'] = "Test Email"
-    msg['From'] = sender
+    msg['From'] = sender_email
     msg['To'] = recipient
 
+    # send mail
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
-        server.login(sender, 'gvtv jvlz unmm xngo')
+        server.login(sender_email, sender_passkey)
         server.send_message(msg)
     
-    logger.info(f"send_email task completed for {recipient}")
-
 
 
 
@@ -60,6 +61,20 @@ def index() -> str:
     
     else:
         return "Welcome to the messaging system!"
+    
+
+@app.route('/logs')
+def logs():
+    log_path = '/var/log/messaging_system.log'
+    if not os.path.exists(log_path):
+        abort(404, description="Log file does not exist.")
+
+    try:
+        with open(log_path, 'r') as log_file:
+            log_content = log_file.read()
+        return f"<pre>{log_content}</pre>"
+    except IOError as e:
+        abort(500, description=f"An error occurred while reading the log file: {e}")
 
 if __name__ == '__main__':
     app.run(debug=True)
