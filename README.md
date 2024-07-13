@@ -26,6 +26,7 @@ Before you begin, ensure you have met the following requirements:
 - To install the required packages, use pip:
     '''bash 
     pip install -r requirements.txt
+    '''
 
 - To install and start Rabbitmq:
     '''bash
@@ -33,6 +34,7 @@ Before you begin, ensure you have met the following requirements:
     sudo apt-get install rabbitmq-server@
     sudo systemctl enable rabbitmq-server
     sudo systemctl start rabbitmq-server
+    '''
 
 - To expose your local server to the internet using Ngrok, first download and install Ngrok from [https://ngrok.com/download](https://ngrok.com/download). 
 
@@ -41,6 +43,7 @@ Before you begin, ensure you have met the following requirements:
     sudo apt install nginx
     sudo systemctl enable nginx
     sudo systemctl start nginx
+    '''
 
 
 
@@ -49,16 +52,19 @@ Before you begin, ensure you have met the following requirements:
 
 ## Running the application
 - Start
-- Start Ngrok with the following command:
+- Start the Flask app with the command:
     '''bash
-    ngrok http 80
+    flask --app app run 
+    '''
 
 - Start the celery worker with the command: 
     '''bash
     celery -A app.celery worker --loglevel=info -E
+    '''
 
-- Start the Flask app with the command:
+- Start Ngrok with the following command:
     '''bash
-    flask --app app run 
+    ngrok http 80
+    '''
 
 ## Enjoyyyyyy!!!!!!!
