@@ -14,51 +14,59 @@ The applicaion also tags logs and displays it on an endpoint
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of Python.
 - You have installed pip.
-- You have installed RabbitMQ.
 - You have installed Nginx
 - You have installed Ngrok.
+- You have installed RabbitMQ.
+- You have installed the latest version of Python.
 
 
 ## Installation
 
 - To install the required packages, use pip:
-    '''bash 
+    ```bash 
     pip install -r requirements.txt
+    ```
 
 - To install and start Rabbitmq:
-    '''bash
+    ```bash
     sudo apt-get update
     sudo apt-get install rabbitmq-server@
     sudo systemctl enable rabbitmq-server
     sudo systemctl start rabbitmq-server
+    ```
+
 
 - To expose your local server to the internet using Ngrok, first download and install Ngrok from [https://ngrok.com/download](https://ngrok.com/download). 
 
+
 - To install and start Nginx:
-    '''bash
+    ```bash
     sudo apt install nginx
     sudo systemctl enable nginx
     sudo systemctl start nginx
-
-
+    ```
 
 ## Environmental variables
 - Create a file named .env and add your variables. You can see an example at .env.example
 
 ## Running the application
-- Start
+- Replace your default ngix.conf file with the one in the application.
+
 - Start Ngrok with the following command:
-    '''bash
+    ```bash
     ngrok http 80
+    ```
 
 - Start the celery worker with the command: 
-    '''bash
+    ```bash
     celery -A app.celery worker --loglevel=info -E
+    ```
 
 - Start the Flask app with the command:
-    '''bash
+    ```bash
     flask --app app run 
+    ```
+
 
 ## Enjoyyyyyy!!!!!!!
